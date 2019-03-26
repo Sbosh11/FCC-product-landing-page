@@ -186,12 +186,26 @@ span {
   opacity: 0.7;
 
 }
+@media only screen and (max-width: 878px)  {
+
+  .email {
+    width: 50%;
+ 
+  }
+  h2 {
+    font-size: 2.2em;
+}
+}
 
 @media only screen and (max-width: 600px)  {
 
   .email {
     width: 70%;
  
+  }
+
+  #hero p {
+    font-size: 0.7em;
   }
   #video {
     width: 100%;
@@ -202,10 +216,11 @@ span {
 
   }
 
+
   #how-works div {
-    width: 80%;
+    width: 25%;
     margin: auto;
-    flex-direction: column;
+    
   }
 
   #header {
@@ -217,7 +232,10 @@ span {
     font-size: 12px;
 
   }
-
+  #supported img {
+   
+    width: 85%;
+  }
   #reviews p {
     font-size: initial;
     width: 100%;
@@ -225,7 +243,7 @@ span {
 
   h2 {
     width: 80%;
-    font-size: 2.0em;
+    font-size: 1.7em;
     margin: auto;
   }
 
