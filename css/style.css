@@ -90,7 +90,7 @@ p {
   border-radius: 26px;
   background: #fff;
   padding: 10px;
-  width: fit-content;
+  width: 40%;
   justify-content: center;
   margin: auto;
 }
@@ -187,7 +187,7 @@ span {
 
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px)  {
   #video {
     width: 100%;
   }
@@ -200,6 +200,7 @@ span {
   #how-works div {
     width: 80%;
     margin: auto;
+    flex-direction: column;
   }
 
   #header {
