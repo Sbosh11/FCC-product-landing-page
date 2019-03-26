@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta');
+
+html,
+body {
+  margin: 0;
+  font-family: 'Allerta', sans-serif;
+  background: #5c6ac4;
+  color: #fff;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  background: #5c6ac4;
+  margin-bottom: -5px;
+}
+
+
+#header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  padding: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Allerta', sans-serif;
+}
+
+#header-img {
+  width: 70px;
+  height: 70px;
+}
+
+#nav-bar {
+  justify-content: flex-end;
+}
+
+#nav-bar ul {
+  display: flex;
+  margin: 0;
+}
+
+#nav-bar ul li {
+  margin: 0 20px;
+  list-style: none;
+  font-size: 18px;
+  color: #fff;
+
+}
+
+
+h2 {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2.75em;
+}
+
+p {
+  font-family: Helvetica, serif;
+  text-align: center;
+}
+
+#hero {
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  padding: 50px 0 10px 0;
+}
+
+.active {
+  background-color: #9eaffd
+}
+
+.email {
+  display: flex;
+  background-color: white;
+  height: 42px;
+  line-height: 42px;
+  box-shadow: none;
+  border-radius: 26px;
+  background: #fff;
+  padding: 10px;
+  width: fit-content;
+  justify-content: center;
+  margin: auto;
+}
+
+.email:hover {
+  box-shadow: rgb(0, 202, 138) 0px 0px 0px 2px;
+}
+
+#email {
+  flex-grow: 2;
+  border: none;
+  outline: none;
+  margin: auto;
+
+}
+
+
+#submit {
+  margin-left: auto;
+  border: none;
+  border-radius: 20px;
+  padding: 0 20px;
+  background: #95be46;
+  outline: none;
+}
+
+#submit:hover {
+  background: #a1d43e;
+}
+
+#submit:active {
+  background: #5d8216;
+}
+
+#video {
+  margin: 50px auto 0;
+  display: block;
+  text-align: center;
+}
+
+#how-works {
+  display: flex;
+  justify-content: center;
+  background: #9eaffd;
+  margin: 0 auto;
+}
+
+#how-works div {
+  width: 20%;
+  margin: 20px;
+}
+
+#how-works div p {
+  text-align: left;
+}
+
+#supported {
+  background: #fff;
+  padding: 50px;
+
+}
+
+#supported img {
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  width: 70%;
+  height: auto;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+#reviews p {
+  color: grey;
+  font-size: 2em;
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+
+}
+
+span {
+  font-size: 0.7em;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.7;
+
+}
+
+@media (max-width: 600px) {
+  #video {
+    width: 100%;
+  }
+
+  #how-works {
+    flex-direction: column;
+
+  }
+
+  #how-works div {
+    width: 80%;
+    margin: auto;
+  }
+
+  #header {
+    height: 50px;
+  }
+
+  #nav-bar ul li {
+    margin: 0 12px;
+    font-size: 12px;
+
+  }
+
+  #reviews p {
+    font-size: initial;
+    width: 100%;
+  }
+
+  h2 {
+    width: 80%;
+    font-size: 2.0em;
+    margin: auto;
+  }
+
+}
