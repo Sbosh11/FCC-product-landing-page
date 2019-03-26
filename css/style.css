@@ -81,23 +81,17 @@ p {
   background-color: #9eaffd
 }
 
-
 .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: white;
   height: 42px;
   line-height: 42px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border-radius: 26px;
   background: #fff;
   padding: 10px;
-  width: 40%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 35%;
+  justify-content: center;
   margin: auto;
 }
 
@@ -193,10 +187,10 @@ span {
 
 }
 
-@media (max-width: 600px) {
-  
+@media only screen and (max-width: 600px)  {
+
   .email {
-    width: 70%;
+    width: 70%
   }
   #video {
     width: 100%;
@@ -210,6 +204,7 @@ span {
   #how-works div {
     width: 80%;
     margin: auto;
+    flex-direction: column;
   }
 
   #header {
