@@ -188,6 +188,10 @@ span {
 }
 
 @media only screen and (max-width: 600px)  {
+
+  .email {
+    width: 70%
+  }
   #video {
     width: 100%;
   }
