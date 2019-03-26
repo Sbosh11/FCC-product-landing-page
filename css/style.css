@@ -81,17 +81,25 @@ p {
   background-color: #9eaffd
 }
 
+
 .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: white;
   height: 42px;
   line-height: 42px;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border-radius: 26px;
   background: #fff;
   padding: 10px;
-  width: 35%;
-  justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: auto;
 }
 
