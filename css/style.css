@@ -266,6 +266,19 @@ span {
 }
 
 #submit, input {
+  font-size: 0.6em;
+  padding: 0 10px;
+}
+.email {
+  width: 80%;
+}
+
+iframe {
+  height: 200px;
+}
+
+#nav-bar ul li {
+  margin: 0 5px;
   font-size: 0.7em;
 }
 
