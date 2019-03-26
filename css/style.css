@@ -195,12 +195,13 @@ span {
   h2 {
     font-size: 2.2em;
 }
+
 #how-works div {
   width: 27%;
 }
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 618px)  {
 
   .email {
     width: 70%;
@@ -211,13 +212,13 @@ span {
     font-size: 0.7em;
   }
   #video {
-    width: 100%;
+    width: 80%;
   }
 
   #how-works {
     margin: auto;
     flex-direction: column;
-    padding: 40px;
+    padding: 40px 20px;
   }
 
   #how-works div {
