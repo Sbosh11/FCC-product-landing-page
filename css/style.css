@@ -94,9 +94,7 @@ p {
   border-radius: 26px;
   background: #fff;
   padding: 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 40%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -196,6 +194,10 @@ span {
 }
 
 @media (max-width: 600px) {
+  
+  .email {
+    width: 70%;
+  }
   #video {
     width: 100%;
   }
